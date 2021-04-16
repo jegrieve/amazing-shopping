@@ -1,15 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import App from "./App";
-import ExampleComponent from "./ExampleComponent";
+import Homepage from "./components/Homepage";
 
 const Routes = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={App} />
-        <Route path="/example-component" component={ExampleComponent} />
+        <Route exact path="/" component={Homepage} />
       </Switch>
     </BrowserRouter>
   );
