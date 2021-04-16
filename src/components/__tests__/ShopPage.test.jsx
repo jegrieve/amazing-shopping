@@ -1,5 +1,4 @@
 import { render, screen, cleanup } from '@testing-library/react';
-import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import ShopPage from '../ShopPage';
 
 afterEach(() => {

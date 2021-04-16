@@ -9,8 +9,8 @@ const Navbar = () => {
       data-testid="navbar"
     >
       <NavLink to="/">Home</NavLink>
-      <NavLink to="/">Shop</NavLink>
-      <NavLink to="/">Cart</NavLink>
+      <NavLink to="/shop">Shop</NavLink>
+      <NavLink to="/cart">Cart</NavLink>
     </div>
   );
 };
